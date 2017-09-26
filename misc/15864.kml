@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>
+      <![CDATA[Brooklyn, Vol. 2, Double Page Plate No. 8; Part of   
+Ward 23, Sectio 6; [Map bounded by Madison St., Tompkins Ave.; Including        
+Brooklyn Ave., Atlantic Ave., Bedford Ave.]]]>
+    </name>
+    <Style>
+      <ListStyle>
+        <listItemType>checkHideChildren</listItemType>
+      </ListStyle>
+    </Style>
+    <NetworkLink>
+      <Region>
+        <LatLonAltBox>
+          <north>40.6862998645418</north>
+          <south>40.6759958615464</south>
+          <east>-73.9399227496846</east>
+          <west>-73.9563395965622</west>
+        </LatLonAltBox>
+        <Lod>
+          <minLodPixels>128</minLodPixels>
+          <maxLodPixels>-1</maxLodPixels>
+        </Lod>
+      </Region>
+      <Link>
+        <viewRefreshMode>onRequest</viewRefreshMode>
+        <href>http://maps.nypl.org/warper/maps/15864.kml?DBOX=-73.9563395965622,40.6759958615464,-73.9399227496846,40.6862998645418,1</href>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>
