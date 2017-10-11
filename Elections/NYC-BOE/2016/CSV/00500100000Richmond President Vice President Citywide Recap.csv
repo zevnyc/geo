@@ -1,0 +1,7 @@
+Oops, The system cannot find the path specified.
+
+Stack:
+   at CrystalDecisions.ReportAppServer.Controllers.ReportSourceClass.Export(ExportOptions pExportOptions, RequestContext pRequestContext)
+   at CrystalDecisions.ReportSource.EromReportSourceBase.ExportToStream(ExportRequestContext reqContext)
+   at CrystalDecisions.CrystalReports.Engine.FormatEngine.ExportToStream(ExportRequestContext reqContext)
+   at CBOERS.ReportRequest.exportReport(FILE_TYPE returnFileType, String relReportLocation, String[] paramaters, String[] paramVals, String recodSelectionFormula) in C:\Users\TysonSmith\Source\Repos\ClassicS-Elect\CBOERS\ReportServer.asmx.cs:line 158
