@@ -1,0 +1,183 @@
+/*table, tr, td, th {border: 1px solid #ccc;}*/
+		 
+thead tr {background-color:#e4e4e4;}
+		 
+tr th, tr td {padding: 6px;}
+
+/* Page Structure Components*/
+#mainbox {
+  width: 960px;
+  margin:0 auto;
+  background-color: #fff;
+  position: relative;  /*Do NOT remove - this style is required to round corners in IE */
+  padding: 0 0 20px 0;
+}
+
+#contentbox {
+	margin: 20px 10px;
+	padding: 0 20px 20px 20px;
+}
+/* End Page Structure components */
+
+#breadcrumbs { display: block; }
+
+#middlecolumn .slide-wrapper p { font-size:101%; line-height:1.2em; margin:0;}
+#fineprint {	text-align: right; float:right; padding-left: 30px; }
+/*#translation { background-color: #dfe2e3; padding: 5px 15px 5px 15px; border-top: 1px solid #6296c6; }*/
+#mainbox #contentbox a:link {	color:#0055aa; text-decoration:none; }
+#mainbox #contentbox img.left-align {	float:left;	padding-right: 8px; }
+
+/* Horizontal list */
+.list_h
+{ 
+	background-image: url("/css/images/arrow-gn.gif");
+	background-position: left center;
+	background-repeat: no-repeat;
+	display: inline;
+	padding-left: 10px;
+}
+/* Vertical List */
+.list_v
+{ 
+	background-image: url("/css/images/arrow-gn.gif");
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	list-style-type: none;
+}
+
+ul li.list_h a {font-weight:bold;}
+
+#contentbox h1 {
+	color: #0055aa;
+	font-size: 153.9%;
+	display: block;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #b4b4b4;
+}
+
+#contentbox h2 {
+	margin-top:1em;
+	margin-bottom:1em;
+	color:#333;
+}
+
+#contentbox h2.blue {
+	color:#0055aa;
+}
+
+#contentbox a:link {text-decoration: none; color:#0055aa;}
+#contentbox a:visited {text-decoration: none; color:#0055aa;}
+#contentbox a:hover {text-decoration: underline}
+#contentbox a:active {text-decoration: underline}
+
+
+#contentbox ul.arrow, #contentbox #sidemenu ul {
+	margin-left:0;
+}
+
+/* unordered list with green arrows */
+
+#contentbox ul.arrow li ul.arrow {
+	margin-top:0;
+	margin-left:10px;
+}
+
+#contentbox ul.arrow li, #contentbox ul.arrow li ul li, #contentbox #sidemenu li {
+	list-style-type:none;
+	margin:0;
+	padding-left:12px;
+	margin-bottom:6px;
+	background-image: url('images/arrow-gn.gif'); 
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+#contentbox ul.arrow li a {font-weight:bold;}
+#contentbox ul.arrow li ul.arrow li a {font-weight:normal;}
+
+#contentbox ul.arrow li ul.arrow {margin-top:0.5em;}
+#contentbox ul.arrow li ul.arrow li ul.arrow { margin-top:0.5em;}
+#contentbox ul.arrow li ul.arrow li ul.arrow li a {font-weight:normal;}
+
+#contentbox #sub-navigation {
+  margin-bottom: 1.5em;
+}
+
+#contentbox #sidemenu {
+  padding:10px;
+  margin-bottom: 1.5em;
+  background: #f0f0e6;
+  border: 1px solid #b4b4b4; 
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+  border-radius: 5px; 
+  behavior: url('/css/border-radius.htc');
+}
+
+#Google-skyscraper-ad { padding:10px; }
+
+/* Following list styles are used to draw and align the footer Google Translate app */
+.list_f { 
+	background-image: url("/css/images/arrow-gn.gif");
+	background-position: 50% left; 
+	background-repeat: no-repeat;
+	display: inline;
+	margin-right:2px;
+	padding-left: 12px;
+	padding-right: 0;	
+	font-weight: bold;
+	height: 30px;
+}
+
+.last_list_f { 
+	border: none;
+}
+
+.first_list_f { 
+	margin-right:0;
+	margin-left: 0;
+	background-image: url("/css/images/arrow-gn.gif");
+	background-position: 50% left; 
+	background-repeat: no-repeat;
+	display: inline;
+	padding-left: 12px;
+	padding-right: 0;	
+	font-weight: bold;
+	height: 30px;
+	}
+
+.first_list_f a, .list_f a {
+	margin-right:9px;
+}
+		
+/* End bottom icons list styles */
+
+.sublev1 {
+  font-weight:bold;
+  font-size:11pt;
+  color:#000066;
+}
+ 
+.emphasized {
+font-weight: bold;
+}
+
+.disclaimer, p.disclaimer {
+ font-size: 8pt;
+ color: #333;
+ line-height:1.5em;
+}
+
+.updlbl {
+  font-weight: bold;
+  color: red;
+}
+
+.caption, .credit {
+	margin-top:5px;
+	float:left;
+	text-align:left;
+	font-size:11px;
+	font-weight:bold;
+} 
