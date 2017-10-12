@@ -1,0 +1,38 @@
+TIGERweb WMS URLs:
+Current:
+https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Current/MapServer/WMSServer
+ACS17:
+https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_ACS2017/MapServer/WMSServer
+ACS16:
+https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_ACS2016/MapServer/WMSServer
+ACS15:
+https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_ACS2015/MapServer/WMSServer
+ACS14:
+https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_ACS2014/MapServer/WMSServer
+ACS13:
+https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_ACS2013/MapServer/WMSServer
+ECON12:
+https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_ECON2012/MapServer/WMSServer
+Census 2010:
+https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_Census2010/MapServer/WMSServer
+Physical Features:
+https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer/WMSServer
+TIGERweb Decennial WMS URLs:
+Census 2010:
+https://tigerweb.geo.census.gov/arcgis/services/Census2010/tigerWMS_Census2010/MapServer/WMSServer
+Census 2000:
+https://tigerweb.geo.census.gov/arcgis/services/Census2010/tigerWMS_Census2000/MapServer/WMSServer
+Physical Features:
+https://tigerweb.geo.census.gov/arcgis/services/Census2010/tigerWMS_PhysicalFeatures/MapServer/WMSServer
+
+
+## ARCGIS
+https://tigerweb.geo.census.gov/arcgis/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer/WMSServer?request=GetCapabilities&service=WMS
+https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer
+
+# ALL REST SERVICES
+https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_restmapservice.html
+
+******************
+https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_PhysicalFeatures/MapServer/export?bbox=-74.2589%2C40.4774%2C-73.7004%2C40.9176&bboxSR=4326&layers=&layerDefs=&size=&imageSR=4326&format=png&transparent=true&dpi=&time=&layerTimeOptions=&dynamicLayers=&gdbVersion=&mapScale=&rotation=&f=image
+
